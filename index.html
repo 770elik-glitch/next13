@@ -263,6 +263,8 @@
 
     
     .family-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:24px;align-items:start}
+    @media(min-width:981px){.family-grid{grid-template-columns:repeat(6,minmax(0,1fr))}.family-card{grid-column:span 2}.family-card:first-child{grid-column:1/-1}.family-card:nth-last-child(-n+2):not(:first-child){grid-column:span 3}}
+    @media(min-width:720px) and (max-width:980px){.family-card:last-child:nth-child(even){grid-column:1/-1}}
     .family-card{min-width:0;display:flex;flex-direction:column;background:white;border:1px solid var(--line);
       border-top:4px solid #FFC84A;border-radius:22px;overflow:hidden;box-shadow:0 8px 22px rgba(0,28,94,.08)}
     .family-photo{display:block;width:100%;aspect-ratio:4/3;object-fit:cover;object-position:center 34%}
@@ -498,7 +500,7 @@
     <section class="section testimonials-section anchor sky" id="testimonials">
       <div class="wrap">
         <div class="section-head">
-          <span class="eyebrow">7 משפחות ממליצות</span>
+          <span class="eyebrow">6 משפחות ממליצות</span>
           <h2>מה הורים מספרים על הדרך</h2>
         </div>
 
@@ -559,17 +561,8 @@
               <div class="family-action"><button type="button" class="read-family" aria-expanded="false" aria-controls="family-text-6" hidden>להמשך קריאה <span aria-hidden="true">▾</span></button></div>
             </div>
           </article>
-          <article class="family-card" id="family-7" aria-labelledby="family-name-7">
-            <img class="family-photo" src="assets/testimonials/07-binyamini-v2.jpg" alt="הרב אלישע עם נער בר המצווה ממשפחת בנימיני" loading="lazy" decoding="async">
-            <div class="family-body"><p class="family-pull">"לימדת אותם בענווה ובמקצועיות רבה"</p><h3 id="family-name-7">משפחת בנימיני</h3>
-              <div class="family-quote" id="family-text-7">הרב היקר והאהוב אלישע,
-שמחנו בשמחת בר המצווה של שני בנינו, וזכינו שליווית אותם בכל הנדרש ובעלייה לתורה, ושלימדת אותם בענווה ובמקצועיות רבה.
-אנו מודים לך על כך, יישר כוח ורק בשמחות.</div>
-              <div class="family-action"><button type="button" class="read-family" aria-expanded="false" aria-controls="family-text-7" hidden>להמשך קריאה <span aria-hidden="true">▾</span></button></div>
-            </div>
-          </article>
         </div>
-        <div class="family-dots" role="group" aria-label="ניווט בין ההמלצות"><button type="button" aria-label="הצגת ההמלצה של משפחת וולדמן" aria-controls="family-1" aria-current="true"></button><button type="button" aria-label="הצגת ההמלצה של משפחת רבי" aria-controls="family-2"></button><button type="button" aria-label="הצגת ההמלצה של משפחת סיידוף" aria-controls="family-3"></button><button type="button" aria-label="הצגת ההמלצה של משפחת ברבי" aria-controls="family-4"></button><button type="button" aria-label="הצגת ההמלצה של משפחת דיין" aria-controls="family-5"></button><button type="button" aria-label="הצגת ההמלצה של משפחת בר עוז" aria-controls="family-6"></button><button type="button" aria-label="הצגת ההמלצה של משפחת בנימיני" aria-controls="family-7"></button></div>
+        <div class="family-dots" role="group" aria-label="ניווט בין ההמלצות"><button type="button" aria-label="הצגת ההמלצה של משפחת וולדמן" aria-controls="family-1" aria-current="true"></button><button type="button" aria-label="הצגת ההמלצה של משפחת רבי" aria-controls="family-2"></button><button type="button" aria-label="הצגת ההמלצה של משפחת סיידוף" aria-controls="family-3"></button><button type="button" aria-label="הצגת ההמלצה של משפחת ברבי" aria-controls="family-4"></button><button type="button" aria-label="הצגת ההמלצה של משפחת דיין" aria-controls="family-5"></button><button type="button" aria-label="הצגת ההמלצה של משפחת בר עוז" aria-controls="family-6"></button></div>
       </div>
     </section>
 
