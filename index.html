@@ -267,7 +267,9 @@
       border-top:4px solid #FFC84A;border-radius:22px;overflow:hidden;box-shadow:0 8px 22px rgba(0,28,94,.08)}
     .family-photo{display:block;width:100%;aspect-ratio:4/3;object-fit:cover;object-position:center 34%}
     .family-body{min-width:0;padding:20px 23px;display:flex;flex-direction:column}
-    .family-body h3{font:700 22px/1.35 "Rubik",sans-serif;margin:0 0 10px;color:#001C5E}
+    .family-pull{font:700 22px/1.4 "Rubik",sans-serif;color:#001C5E;margin:0 0 8px;text-wrap:balance}
+    .family-body h3{font:600 15px/1.35 "Rubik",sans-serif;margin:0 0 12px;color:#1a8fd0}
+    .family-body h3:before{content:"— "}
     .family-quote{white-space:pre-line;font:400 17px/1.6 "Assistant",sans-serif;color:#001C5E}
     .family-ready .family-quote{min-height:8em}
     .family-ready .family-card:not(.open) .family-quote{display:-webkit-box;-webkit-box-orient:vertical;-webkit-line-clamp:5;line-clamp:5;overflow:hidden}
@@ -505,7 +507,7 @@
         <div class="family-grid" aria-label="המלצות הורים">
           <article class="family-card" id="family-1" aria-labelledby="family-name-1">
             <img class="family-photo" src="assets/testimonials/01-waldman.jpg" alt="הרב אלישע עם נער בר המצווה ממשפחת וולדמן" loading="lazy" decoding="async">
-            <div class="family-body"><h3 id="family-name-1">משפחת וולדמן</h3>
+            <div class="family-body"><p class="family-pull">"הוא העניק לו ביטחון, תחושת מסוגלות ובעיקר חוויה חיובית ומשמחת"</p><h3 id="family-name-1">משפחת וולדמן</h3>
               <div class="family-quote" id="family-text-1">אנחנו רוצים להמליץ מכל הלב על הרב אלישע קצבי, שליווה והכין את בננו לקראת בר המצווה.
 בזמן קצר הצליח אלישע לעשות עבודה פשוט מדהימה! הוא הכין את הבן שלנו בצורה מקצועית, יסודית ומעוררת הערכה, אבל מעבר ללימוד עצמו, הוא העניק לו ביטחון, תחושת מסוגלות ובעיקר חוויה חיובית ומשמחת.
 באירוע עצמו הוא היה פשוט נהדר, הכניס המון שמחה, אנרגיה ואווירה טובה, והפך את הרגע המיוחד הזה לחוויה בלתי נשכחת עבור כולנו.
@@ -516,21 +518,21 @@
           </article>
           <article class="family-card" id="family-2" aria-labelledby="family-name-2">
             <img class="family-photo" src="assets/testimonials/02-rabi-v2.jpg" alt="הרב אלישע עם נער בר המצווה ממשפחת רבי" loading="lazy" decoding="async">
-            <div class="family-body"><h3 id="family-name-2">משפחת רבי</h3>
+            <div class="family-body"><p class="family-pull">"ידע איך לגרום להם לצפות למפגשים, וגם ליהנות מהם ולהתרגש"</p><h3 id="family-name-2">משפחת רבי</h3>
               <div class="family-quote" id="family-text-2">הרב אלישע הכין את התאומים שלנו לבר המצווה שנערכה בחודש מאי 2026. מורה ומלמד מעולה! ובעיקר אדם צנוע ונעים הליכות, שדיבר עם הילדים "בגובה העיניים" וידע איך לגרום להם לצפות למפגשים, וגם ליהנות מהם ולהתרגש. אז תודה מכל הלב ויישר כוח.</div>
               <div class="family-action"><button type="button" class="read-family" aria-expanded="false" aria-controls="family-text-2" hidden>להמשך קריאה <span aria-hidden="true">▾</span></button></div>
             </div>
           </article>
           <article class="family-card" id="family-3" aria-labelledby="family-name-3">
             <img class="family-photo" src="assets/testimonials/03-saidof-v2.jpg" alt="הרב אלישע עם נער בר המצווה ממשפחת סיידוף" loading="lazy" decoding="async">
-            <div class="family-body"><h3 id="family-name-3">משפחת סיידוף</h3>
+            <div class="family-body"><p class="family-pull">"הצליח להפוך את הלמידה לחוויה מרתקת ומשמעותית"</p><h3 id="family-name-3">משפחת סיידוף</h3>
               <div class="family-quote" id="family-text-3">ברצוננו להמליץ בחום על הרב אלישע, שליווה את הבן שלנו בצורה מדהימה ומעוררת השראה לקראת טקס בר המצווה. בסבלנות רבה, בגישה חיובית ומקצועית, הוא הצליח להפוך את הלמידה לחוויה מרתקת ומשמעותית שהבן שלנו נהנה ממנה. ממליצים עליו מכל הלב לכל משפחה שמחפשת ליווי אישי, מרגש ומדויק.</div>
               <div class="family-action"><button type="button" class="read-family" aria-expanded="false" aria-controls="family-text-3" hidden>להמשך קריאה <span aria-hidden="true">▾</span></button></div>
             </div>
           </article>
           <article class="family-card" id="family-4" aria-labelledby="family-name-4">
             <img class="family-photo" src="assets/testimonials/04-barbi.jpg" alt="הרב אלישע עם נער בר המצווה ממשפחת ברבי" loading="lazy" decoding="async">
-            <div class="family-body"><h3 id="family-name-4">משפחת ברבי</h3>
+            <div class="family-body"><p class="family-pull">"יונתן בעצמו ביקש להמשיך להיפגש איתו גם אחרי בר המצווה"</p><h3 id="family-name-4">משפחת ברבי</h3>
               <div class="family-quote" id="family-text-4">למדנו לקרוא בתורה עם הרב אלישע קצבי, יונתן בני ואני, וזו הייתה חוויה רוחנית מרגשת ומשמעותית עבור שנינו.
 הרבה מעבר להכנה לקריאה בתורה, הרב אלישע העניק לנו חוויה שלמה ומעמיקה — היכרות עם משמעות המצווה ומהותה, חיבור לשורשי היהדות ולמסורת, וליווי אישי, רגיש ותומך בתקופה כל כך מיוחדת ומרגשת.
 ומעל הכול, נוצר חיבור מקסים ומיוחד בינו לבין יונתן, עד כדי כך שיונתן בעצמו ביקש להמשיך להיפגש איתו גם אחרי בר המצווה. בעיניי, זה אומר הכול.
@@ -541,7 +543,7 @@
           </article>
           <article class="family-card" id="family-5" aria-labelledby="family-name-5">
             <img class="family-photo" src="assets/testimonials/05-dayan-v2.jpg" alt="הרב אלישע עם נער בר המצווה ממשפחת דיין" loading="lazy" decoding="async">
-            <div class="family-body"><h3 id="family-name-5">משפחת דיין</h3>
+            <div class="family-body"><p class="family-pull">"הכין את הילד בצורה הכי קלה ונעימה שיש"</p><h3 id="family-name-5">משפחת דיין</h3>
               <div class="family-quote" id="family-text-5">ממליצים בחום על הרב אלישע.
 הוא עבד בצורה יסודית על הפרשה לבר מצווה, הכין את הילד בצורה הכי קלה ונעימה שיש. מעבר לפרשה הוא מלמד גם המון דברים שקשורים ליהדות: הנחת תפילין, נרות שבת, כיבוד אב ואם ועוד המון דברים שהילד מקבל "בתיק המצוות" שאלישע מכין עבורו.
 אדם סבלני, חייכן ואחד שכיף ללמוד אצלו.
@@ -551,7 +553,7 @@
           </article>
           <article class="family-card" id="family-6" aria-labelledby="family-name-6">
             <img class="family-photo" src="assets/testimonials/06-bar-oz-v2.jpg" alt="הרב אלישע עם נער בר המצווה ממשפחת בר עוז" loading="lazy" decoding="async">
-            <div class="family-body"><h3 id="family-name-6">משפחת בר עוז</h3>
+            <div class="family-body"><p class="family-pull">"זכינו לפגוש מורה דרך"</p><h3 id="family-name-6">משפחת בר עוז</h3>
               <div class="family-quote" id="family-text-6">לרב אלישע,
 רצינו להודות לך מקרב הלב על הליווי והלימוד של בננו נועם לקראת בר המצווה.
 ב"ה זכינו לפגוש מורה דרך שלימד אותו במסירות רבה, בסבלנות, עם ידע עצום ובעיקר ענווה גדולה.
@@ -562,7 +564,7 @@
           </article>
           <article class="family-card" id="family-7" aria-labelledby="family-name-7">
             <img class="family-photo" src="assets/testimonials/07-binyamini-v2.jpg" alt="הרב אלישע עם נער בר המצווה ממשפחת בנימיני" loading="lazy" decoding="async">
-            <div class="family-body"><h3 id="family-name-7">משפחת בנימיני</h3>
+            <div class="family-body"><p class="family-pull">"לימדת אותם בענווה ובמקצועיות רבה"</p><h3 id="family-name-7">משפחת בנימיני</h3>
               <div class="family-quote" id="family-text-7">הרב היקר והאהוב אלישע,
 שמחנו בשמחת בר המצווה של שני בנינו, וזכינו שליווית אותם בכל הנדרש ובעלייה לתורה, ושלימדת אותם בענווה ובמקצועיות רבה.
 אנו מודים לך על כך, יישר כוח ורק בשמחות.</div>
@@ -625,8 +627,8 @@
             <p>לא. ההכנה המעשית ליום בר המצווה היא חלק חשוב, אבל NEXT13 עוסק גם בזהות, במשפחה, בבחירה, באחריות, בתפילה, בשבת, בכיבוד הורים, באהבת ישראל ובמשמעות של גיל 13.</p>
           </details>
           <details>
-            <summary>אפשר להתמקד רק בהכנה לקריאה בתורה?</summary>
-            <p>כן. אם זה מה שמתאים לכם, אפשר להסתפק בהכנה בסיסית לעלייה לתורה ולקריאה בתורה. נקבע יחד את ההיקף בשיחת ההיכרות.</p>
+            <summary>אנחנו רוצים רק שילמד לקרוא בתורה. זה אפשרי?</summary>
+            <p>בהחלט. אפשר להסתפק בהכנה לקריאה בתורה ולעלייה לתורה בלבד, בלי שיעורים נוספים ובלי תכנים שלא ביקשתם. אתם קובעים את ההיקף, ואני מתאים את עצמי אליכם.</p>
           </details>
           <details>
             <summary>האם לומדים גם על תפילין ועל סדר התפילה?</summary>
