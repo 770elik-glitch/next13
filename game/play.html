@@ -1,4 +1,7 @@
-<!doctype html><html><head><meta name="robots" content="noindex,nofollow"><script src="codes.js"></script><script>try{if(!(window.NEXT13_CODES||[]).includes(localStorage.getItem("next13-access")))location.replace("./")}catch(e){location.replace("./")}</script><meta charset=utf8><meta name=viewport content="width=device-width,initial-scale=1,viewport-fit=cover"><style>:root{color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}html{scroll-padding-top:env(safe-area-inset-top,0px)}body{margin:0;padding:0;font:14px -apple-system,BlinkMacSystemFont,sans-serif;background:#fff;color:#000}img{max-width:100%}[hidden]:not([hidden=until-found i]){display:none!important}</style></head><body>
+<!doctype html><html><head><meta name="robots" content="noindex,nofollow"><script src="codes.js"></script><script>(function(){var a,C=window.NEXT13_CODES||[],A=window.NEXT13_ADMIN;try{a=localStorage.getItem("next13-access")}catch(e){}
+if(!(C.indexOf(a)>=0||a===A||a==="guest")){location.replace("./");return}
+window.NEXT13_GUEST=a==="guest";
+if(a===A||a==="guest"){try{var L="next13-progress-v1",st=JSON.parse(localStorage.getItem(L)||"null")||{open:[],done:[]};st.open=[1,2,3,4,5,6,7,8,9,10,11,12,13];if(a===A)st.admin=true;else delete st.admin;st.done=st.done||[];localStorage.setItem(L,JSON.stringify(st))}catch(e){}}})();</script><meta charset=utf8><meta name=viewport content="width=device-width,initial-scale=1,viewport-fit=cover"><style>:root{color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}html{scroll-padding-top:env(safe-area-inset-top,0px)}body{margin:0;padding:0;font:14px -apple-system,BlinkMacSystemFont,sans-serif;background:#fff;color:#000}img{max-width:100%}[hidden]:not([hidden=until-found i]){display:none!important}</style></head><body>
 <title>NEXT13 המשחק</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Secular+One&family=Assistant:wght@400;600;700;800&family=Frank+Ruhl+Libre:wght@500;700&display=swap">
@@ -4912,4 +4915,15 @@ function createMiner(root,onFinish){
 home();
 </script>
 
-</body></html>
+<style>#gx{position:fixed;inset:0;z-index:99999;background:rgba(0,28,94,.94);display:flex;align-items:center;justify-content:center;padding:20px;direction:rtl;font-family:system-ui,Arial,sans-serif}#gx[hidden]{display:none!important}#gx .b{max-width:380px;width:100%;text-align:center;color:#fff}#gx h2{font-size:28px;margin:0 0 10px;color:#FECF57}#gx p{font-size:18px;line-height:1.5;margin:0 0 22px;color:#E3EFFC}#gx a,#gx button{display:block;width:100%;padding:15px;border-radius:14px;font-size:19px;font-weight:700;text-decoration:none;border:0;cursor:pointer;margin-bottom:10px}#gx a{background:#25D366;color:#fff}#gx button{background:transparent;border:2px solid #E3EFFC;color:#fff}#gxt{position:fixed;top:10px;left:10px;z-index:99998;background:#FECF57;color:#001C5E;font:700 16px system-ui,Arial;padding:6px 12px;border-radius:20px}#gxt[hidden]{display:none}</style>
+<div id="gxt" hidden></div><div id="gx" hidden><div class="b"><h2>אהבת? זה רק ההתחלה!</h2><p>זו הייתה טעימה של 30 שניות.<br>המשחק המלא מחכה לתלמידי NEXT13.<br>בואו להצטרף למסע הבר מצווה.</p>
+<a href="https://wa.me/972542577050?text=%D7%A9%D7%9C%D7%95%D7%9D%2C%20%D7%A0%D7%99%D7%A1%D7%99%D7%AA%D7%99%20%D7%90%D7%AA%20%D7%94%D7%9E%D7%A9%D7%97%D7%A7%20%D7%A9%D7%9C%20NEXT13%20%D7%95%D7%90%D7%A9%D7%9E%D7%97%20%D7%9C%D7%A9%D7%9E%D7%95%D7%A2%20%D7%A2%D7%9C%20%D7%94%D7%9E%D7%A1%D7%A2" target="_blank" rel="noopener">💬 להצטרפות למסע בוואטסאפ</a><button id="gxback">חזרה למפה</button></div></div>
+<script>(function(){if(!window.NEXT13_GUEST)return;var K="next13-guest-used",used=[];try{used=JSON.parse(localStorage.getItem(K)||"[]")}catch(e){}
+var gx=document.getElementById("gx"),gt=document.getElementById("gxt"),tm=null,tk=null,cur=0;
+function stop(){clearTimeout(tm);tm=null;clearInterval(tk);gt.hidden=true}
+function block(){stop();try{setPause(true)}catch(e){}try{AU.stopMusic()}catch(e){}gx.hidden=false}
+document.getElementById("gxback").onclick=function(){gx.hidden=true;try{setPause(false)}catch(e){}try{if(runner){runner.destroy();runner=null}}catch(e){}try{home()}catch(e){location.reload()}};
+var orig=window.station;window.station=function(n){stop();gx.hidden=true;orig(n);cur=n;if(used.indexOf(n)>=0){block();return}
+var rg=document.getElementById("rg");if(!rg)return;rg.addEventListener("click",function(e){if(!e.target.closest('[data-r="start"],[data-again]')||tm||used.indexOf(n)>=0)return;
+used.push(n);try{localStorage.setItem(K,JSON.stringify(used))}catch(e){}var left=30;gt.textContent="⏱ "+left;gt.hidden=false;tk=setInterval(function(){left--;gt.textContent="⏱ "+left},1000);tm=setTimeout(block,30000)},true)};
+var oh=window.home;window.home=function(){stop();tm=null;oh.apply(this,arguments)};})();</script></body></html>
