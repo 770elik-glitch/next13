@@ -1,1 +1,2 @@
-window.NEXT13_CODES=["d71aa49794ea6fecd3a4731c8835d72c17a0c74c8d1098e5ee4f851e2029eaed", "5367b8a53158ae33a898fb9627a2583dade63df04868111c4189f4372d28601c"];
+// רשימת קודים: שם פרטי + שם משפחה בלי רווח (מוצפן)
+window.NEXT13_CODES=["86e4011e0594ddde7a9ffe5ab0c0ad4adba9d15c202ab9a0e9ea911473a8d3c2", "57b53f7b4cc06141c0971e3e2d62269ecff05823c18d146a406b44705891206b"];
